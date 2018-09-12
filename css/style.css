@@ -34,7 +34,7 @@ h2 {
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
-  box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.8) inset; }
+  box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.7) inset; }
   .main-text {
     font-size: 2rem;
     font-weight: 300;
@@ -90,7 +90,9 @@ h2 {
   color: rgba(0, 0, 0, 0.5); }
 .sources-title {
   display: block;
-  padding: 3rem 0; }
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 3rem; }
 .sources-info {
   padding-bottom: 3rem; }
 
@@ -109,6 +111,7 @@ h2 {
       padding: 3rem 1rem; }
     .searchblock_submit {
       margin-top: 1rem;
+      padding: 1rem;
       display: block;
       min-width: 100%; } }
 

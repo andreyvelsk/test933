@@ -9,7 +9,7 @@ $fixed.on("click", function (event) {
 	event.preventDefault();
 
 	//забираем идентификатор бока с атрибута href
-	var id  = $(this).attr('href'),
+	var id  = $(this).attr('action'),
 
 	//узнаем высоту от начала страницы до блока на который ссылается якорь
 	top = $(id).offset().top;
