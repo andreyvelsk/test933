@@ -1,0 +1,59 @@
+html
+	font-size: 10px
+
+body
+	font-size: 1.8rem
+
+h1
+	text-align: center
+	font-size: 4.8rem
+.navbar
+	height: 8rem
+.logo
+	
+.main
+	background: url('../img/main.jpg') no-repeat center center
+	background-size: cover
+	background-attachment: fixed
+	color: #fff
+	padding: 20rem 0
+	box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.8) inset
+	&-text
+		line-height: 2
+
+	.btn-check
+		font-size: 2rem
+		padding: 1rem 4rem
+
+.section:nth-child(even)
+	background-color: #f0f0f0
+.section:nth-child(odd)
+	background-color: #fff
+
+.search
+	text-align: center
+	max-width: 752px
+	margin: 0 auto
+	height: 100%
+
+	&-form
+		width: 100%
+	&block
+		display: flex
+		&_label
+
+			display: inline-block
+			width: 100%
+			max-width: 80%
+			margin: 0
+			position: relative
+		&_input
+			width: 100%
+			padding: 1rem 4rem
+			transition: all 0.2s
+			border: none
+		&_submit
+			min-width: 20%
+			border: none
+			display: inline-block
+			background-color: #f9f9f9
