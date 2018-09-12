@@ -3,11 +3,16 @@ html {
 
 body {
   font-size: 1.8rem;
-  font-family: "Roboto"; }
+  font-family: "Roboto";
+  overflow-x: hidden; }
 
 h1 {
   text-align: center;
   font-size: 4rem; }
+
+h2 {
+  text-align: center;
+  font-size: 3rem; }
 
 .navbar {
   height: 8rem; }
@@ -37,9 +42,8 @@ h1 {
     padding: 10rem 0;
     text-align: center; }
   .main .btn-check {
-    font-size: 2rem;
-    padding: 2rem 4rem;
-    width: 30%; }
+    font-size: 3rem;
+    padding: 2rem 8rem; }
 
 .express-block {
   margin-top: 5rem;
@@ -78,5 +82,24 @@ h1 {
       min-width: 20%;
       border: none;
       display: inline-block; }
+
+.sources img {
+  max-width: 100%; }
+.sources-block {
+  text-align: center; }
+.sources-icon {
+  font-size: 5rem;
+  color: rgba(0, 0, 0, 0.5); }
+.sources-title {
+  display: block;
+  padding: 3rem 0; }
+.sources-info {
+  padding-bottom: 3rem; }
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 2rem1;
+  text-align: left; }
 
 /*# sourceMappingURL=style.css.map */
