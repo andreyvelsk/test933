@@ -16,29 +16,29 @@
 
 <body>
 	<div class="header">
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<a class="navbar-brand" href="#">
-				<img class="logo" src="./img/logo1.png" alt="Logo">
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarColor02">
-				<ul class="nav navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Проверить компанию</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Предоставляемые данные</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Наши цены</a>
-					</li>
-				</ul>
-
-			</div>
-		</nav>
-		<!-- /.navbar navbar-dark bg-primary -->
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="#">
+					<img class="logo" src="./img/logo1.png" alt="Logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarColor02">
+					<ul class="nav navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Проверить компанию</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Предоставляемые данные</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Наши цены</a>
+						</li>
+					</ul>
+			
+				</div>
+			</nav>
+			<!-- /.navbar navbar-dark bg-primary -->
 		
 	</div>
 	<!-- /.header -->
@@ -47,25 +47,23 @@
 	<div class="main section">
 		<div class="container">
 			<h1>
-				Проверьте компанию за считанные минуты!
+				Проверьте компанию за считанные минуты
 			</h1>
 			
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12">
 					<p class="main-text">
 						Выписка из ЕГРЮЛ или ЕГРИП с электронной печатью-подписью ФНС, кто учредитель, кто директор, какие финансовые показатели, в каких торгах и судах участвует, индексовый анализ финансовых сведений, расчёт стоимости бизнеса, оценка кредитоспособности, имущество в залоге и в лизинге — все это можно получить всего за 500 рублей!
 					
 					</p>
 					
-					<button class="button btn-lg btn-danger btn-check">
-						Проверить
-					</button>
+					<div class="center">
+						<button class="button btn-lg btn-danger btn-check">
+							Проверить
+						</button>
+					</div>
 				</div>
 				<!-- /.col-md-6 -->
-
-				<div class="col-md-6">
-					
-				</div>
 			</div>
 			<!-- /.row -->
 		</div>
@@ -73,7 +71,39 @@
 	<!-- /.main -->
 
 	<div class="express section">
-		<h1>Экспресс - проверка</h1>
+		<div class="container">
+			<h1>Экспресс - проверка</h1>
+			
+			<div class="row">
+				<div class="col-md-3 express-block">
+					<span class="express-icon"><i class="fas fa-list-ul"></i></span>
+					<p>
+						Получите полный анализ компании за 2 клика
+					</p>
+				</div>
+
+				<div class="col-md-3 express-block">
+					<span class="express-icon"><i class="fas fa-clipboard-check"></i></span>
+					<p>
+						Сервис покажет все возможные риски от сотрудничества
+					</p>
+				</div>
+
+				<div class="col-md-3 express-block">
+					<span class="express-icon"><i class="fas fa-user-check"></i></span>
+					<p>
+						Рекомендации помогут в принятии решения
+					</p>
+				</div>
+
+				<div class="col-md-3 express-block">
+					<span class="express-icon"><i class="fas fa-book"></i></span>
+					<p>
+						Отчет экспресс-проверки как свидетельство о должной осмотрительности
+					</p>
+				</div>
+			</div>
+		</div>
 		
 	</div>
 	<!-- /.express -->
@@ -86,10 +116,10 @@
 				<form class="search-form">
 						<div class="searchblock">
 							<label  class="searchblock_label">
-								<input class="searchblock_input" type="search" placeholder="Введите ИНН / ОГРН / ФИО / Название компани" required>
+								<input class="searchblock_input form-control" type="search" placeholder="Введите ИНН / ОГРН / ФИО / Название компани" required>
 							</label>
 							    				
-							<button class="searchblock_submit" type="submit">Send</button>
+							<button class="searchblock_submit btn btn-primary" type="submit">Send</button>
 						</div>
 					
 				</form>
@@ -101,8 +131,9 @@
 	</div>
 	<!-- /.checkinn -->
 
-	<div class="sources">
-		<h1>Источники</h1>
+	<div class="sources section">
+		<h1>Мы знаем все</h1>
+
 	</div>
 	<!-- /.sources -->
 
