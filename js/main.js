@@ -17,6 +17,8 @@ $fixed.on("click", function (event) {
 		//анимируем переход на расстояние - top
 	$('body,html').animate({scrollTop: top}, 700);
 
+	$('.searchblock_input').focus();
+
 	});      
 
 });
