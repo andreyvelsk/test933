@@ -2,8 +2,6 @@ $(function() {
 
 $fixed = $("#btncheck"), //меню десктоп
 
-console.log($fixed);
-
 $fixed.on("click", function (event) {
 	//отменяем стандартную обработку нажатия по ссылке
 	event.preventDefault();
